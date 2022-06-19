@@ -10,13 +10,14 @@ from app import calc
 class CalcTest(SimpleTestCase):
     """Test the calc module."""
 
-    def calc_test(self):
+    def test_calc_add(self):
         """Test adding numbers"""
-        res = calc.add(5 + 6)
+        res = calc.add(5, 6)
 
         self.assertEqual(res, 11)
 
-    # def calc_subtract_test(self):
-    #     res = calc.subtract(11 - 15)
+    def test_subtract_calc(self):
+        """testing subtraction"""
+        res = calc.subtract(15, 11)
 
-    #     self.assertEqual(res, 3)
+        self.assertEqual(res, 4)
