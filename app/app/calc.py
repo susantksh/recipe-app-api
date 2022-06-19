@@ -1,9 +1,15 @@
 """
 adding two number
 """
-def add(x, y):
+def add(x_num, y_num):
     """adding two numbers."""
-    return x+y
+    return x_num+y_num
 
-def subtract(x, y):
-    return x-y
+# """
+# subtracting two number
+# """
+def subtract(x_num, y_num):
+    """
+    subtracting
+    """
+    return x_num-y_num
